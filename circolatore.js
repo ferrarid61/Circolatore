@@ -3,7 +3,7 @@
 // Interruttore fisico su SW (input:0) - Detached
 // Temperatura esterna da Shelly Plus Uni (Gen2) via RPC
 // Modalità normale:  interruttore ON → 3 min subito + 3 min ogni ora
-//                    solo nella fascia oraria consentita
+//                    solo nella fascia oraria consentita, ad ora dalle 7 alle 24
 // Modalità antigelo: temp < 0°C per ≥ 6 ore → 3 min ogni 6 ore
 //                    sempre attiva (ignora fascia oraria)
 // ============================================================
